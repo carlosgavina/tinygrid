@@ -1,4 +1,4 @@
-/* A tiny responsive grid | by @carlosgavina | hello@carlosgavina.com | https://github.com/carlosgavina/tinygrid */
+/* A tiny responsive grid | v0.2 | by @carlosgavina | hello@carlosgavina.com | https://github.com/carlosgavina/tinygrid */
 .grid {
   width: 100%;
   max-width: 1280px;
@@ -7,48 +7,49 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .grid .col-1, .grid .col-2, .grid .col-3, .grid .col-4, .grid .col-5, .grid .col-third, .grid .col-6, .grid .col-7, .grid .col-8, .grid .col-9, .grid .col-10, .grid .col-11, .grid .col-12, .grid .col-13, .grid .col-14, .grid .col-15, .grid .col-16 {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-third, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16 {
     display: inline-block;
     padding: 0 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: top; }
-  .grid .col-1 {
+  .col-1 {
     width: 6.25%; }
-  .grid .col-2 {
+  .col-2 {
     width: 12.5%; }
-  .grid .col-3 {
+  .col-3 {
     width: 18.75%; }
-  .grid .col-4 {
+  .col-4 {
     width: 25%; }
-  .grid .col-5 {
+  .col-5 {
     width: 31.25%; }
-  .grid .col-third {
+  .col-third {
     width: 33.3%; }
-  .grid .col-6 {
+  .col-6 {
     width: 37.5%; }
-  .grid .col-7 {
+  .col-7 {
     width: 43.75%; }
-  .grid .col-8 {
+  .col-8 {
     width: 50%; }
-  .grid .col-9 {
+  .col-9 {
     width: 56.25%; }
-  .grid .col-10 {
+  .col-10 {
     width: 62.5%; }
-  .grid .col-11 {
+  .col-11 {
     width: 68.75%; }
-  .grid .col-12 {
+  .col-12 {
     width: 75%; }
-  .grid .col-13 {
+  .col-13 {
     width: 81.25%; }
-  .grid .col-14 {
+  .col-14 {
     width: 87.5%; }
-  .grid .col-15 {
+  .col-15 {
     width: 93.75%; }
-  .grid .col-16 {
+  .col-16 {
     width: 100%; }
 
 @media handheld, only screen and (max-width: 650px) {
-  .grid .col-1, .grid .col-2, .grid .col-3, .grid .col-4, .grid .col-5, .grid .col-third, .grid .col-6, .grid .col-7, .grid .col-8, .grid .col-9, .grid .col-10, .grid .col-11, .grid .col-12, .grid .col-13, .grid .col-14, .grid .col-15, .grid .col-16 {
-    width: 100%; } }
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-third, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16 {
+    width: 100%; padding: 0; }
+}
